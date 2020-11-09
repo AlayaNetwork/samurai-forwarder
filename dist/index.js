@@ -14,7 +14,7 @@ const getParentWindow = () => {
 }
 
 const receiveParentMessage = (event) => {
-  if (event.data.type === 'metamask:registrationCompleted') {
+  if (event.data.type === 'alaya-metamask:registrationCompleted') {
     console.log('Onboarding complete; closing window')
     window.close()
   } else {
@@ -39,7 +39,7 @@ const initialize = () => {
   window.addEventListener('message', receiveMessage)
   reloadParentInterval = setInterval(() => {
     console.debug('Sending metamask:reload message')
-    parentWindow.postMessage({ type: 'metamask:reload' }, '*')
+    parentWindow.postMessage({ type: 'alaya-metamask:reload' }, '*')
   }, parentMessageInterval)
 }
 window.addEventListener('DOMContentLoaded', initialize)

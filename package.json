@@ -1,14 +1,14 @@
 {
-  "name": "@metamask/forwarder",
+  "name": "@alayanetwork/forwarder",
   "version": "1.1.0",
   "description": "Forwarding page for one-click onboarding",
-  "homepage": "https://github.com/MetaMask/forwarder#readme",
+  "homepage": "https://github.com/AlayaNetwork/forwarder#readme",
   "bugs": {
-    "url": "https://github.com/MetaMask/forwarder/issues"
+    "url": "https://github.com/AlayaNetwork/forwarder/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MetaMask/forwarder.git"
+    "url": "git+ssh://git@github.com/AlayaNetwork/forwarder.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
